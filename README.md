@@ -93,7 +93,7 @@ In Eclipse, for running the tests do the following:
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -102,8 +102,8 @@ The following parameters are configurable for the API Client:
 | `port` | `String` | *Default*: `"80"` |
 | `suites` | `SuiteCodeEnum` | *Default*: `SuiteCodeEnum.HEARTS` |
 | `environment` | `Environment` | The API environment. <br> **Default: `Environment.TESTING`** |
-| `httpClientConfig` | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
-| `basicAuthCredentials` | [`BasicAuthCredentials`](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/$a/https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/basic-authentication.md) | The Credentials Setter for Basic Authentication |
+| `httpClientConfig` | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
+| `basicAuthCredentials` | [`BasicAuthCredentials`](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/auth/basic-authentication.md) | The Credentials Setter for Basic Authentication |
 
 The API client can be initialized as follows:
 
@@ -137,24 +137,24 @@ The SDK can be configured to use a different environment for making API calls. A
 
 This API uses the following authentication schemes.
 
-* [`httpBasic (Basic Authentication)`](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/$a/https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/basic-authentication.md)
+* [`httpBasic (Basic Authentication)`](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/auth/basic-authentication.md)
 
 ## List of APIs
 
-* [API](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/controllers/api.md)
+* [API](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/controllers/api.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/utility-classes.md)
-* [HttpRequest](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/http-request.md)
-* [HttpResponse](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/http-response.md)
-* [HttpStringResponse](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/http-string-response.md)
-* [HttpContext](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/http-context.md)
-* [HttpBodyRequest](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/http-body-request.md)
-* [HttpCallback Interface](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/http-callback-interface.md)
-* [Headers](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/headers.md)
-* [ApiException](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/api-exception.md)
-* [Configuration Interface](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/configuration-interface.md)
-* [HttpClientConfiguration](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/http-client-configuration.md)
-* [HttpClientConfiguration.Builder](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/0.0.1/doc/http-client-configuration-builder.md)
+* [Utility Classes](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/utility-classes.md)
+* [HttpRequest](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/http-request.md)
+* [HttpResponse](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/http-response.md)
+* [HttpStringResponse](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/http-string-response.md)
+* [HttpContext](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/http-context.md)
+* [HttpBodyRequest](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/http-body-request.md)
+* [HttpCallback Interface](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/http-callback-interface.md)
+* [Headers](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/headers.md)
+* [ApiException](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/api-exception.md)
+* [Configuration Interface](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/configuration-interface.md)
+* [HttpClientConfiguration](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/http-client-configuration.md)
+* [HttpClientConfiguration.Builder](https://www.github.com/asadali214/my-basic-auth-java-sdk/tree/2.0.0/doc/http-client-configuration-builder.md)
 
